@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#7223BD"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Tip Time"
+            android:textAlignment="gravity"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#5CB9C5"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/costService"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Cost of Service"
+            android:inputType="number|numberDecimal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topBar" />
+
+        <TextView
+            android:id="@+id/serviceQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="How was the service?"
+            android:textColor="#808080"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/costService" />
+
+        <RadioGroup
+            android:id="@+id/tipOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:checkedButton="@id/optionAmazing"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/serviceQuestion">
+
+            <RadioButton
+                android:id="@+id/optionAmazing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amazing (20%)" />
+
+            <RadioButton
+                android:id="@+id/optionGood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Good (18%)" />
+
+            <RadioButton
+                android:id="@+id/optionOkay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Okay (15%)" />
+        </RadioGroup>
+
+        <Switch
+            android:id="@+id/roundTip"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:checked="true"
+            android:text="Round up tip?"
+            android:textAlignment="textStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tipOption"
+            app:layout_constraintTop_toBottomOf="@id/tipOption" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#7223BD"
+            android:text="CALCULATE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/roundTip" />
+
+        <TextView
+            android:id="@+id/tipResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:textSize="18sp"
+            android:text="Tip Amount"
+            android:textColor="#808080"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calculateButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
