@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">F1 Team</string>
+    <string name="btn_team">F1 Team</string>
+    <string name="btn_detail">Detail</string>
+
+
+    <string-array name="data_name">
+        <item>Ferrari</item>
+        <item>Mclaren</item>
+        <item>Mercedes</item>
+        <item>Red Bull Racing</item>
+        <item>Williams</item>
+
+    </string-array><string-array name="data_base">
+        <item>Base : Maranello, Italy</item>
+        <item>Base : Woking, United Kingdom</item>
+        <item>Base : Brackley, United Kingdom</item>
+        <item>Base : Milton Keynes, United Kingdom</item>
+        <item>Base : Grove, United Kingdom</item>
+    </string-array>
+
+    <string-array name="data_chief">
+        <item>Team Chief : Frédéric Vasseur</item>
+        <item>Team Chief : Andrea Stella</item>
+        <item>Team Chief : Toto Wolff</item>
+        <item>Team Chief : Christian Horner</item>
+        <item>Team Chief : James Vowles</item>
+    </string-array>
+
+    <string-array name="data_chassis">
+        <item>Chassis : SF-25</item>
+        <item>Chassis : MCL39</item>
+        <item>Chassis : W16</item>
+        <item>Chassis : RB21</item>
+        <item>Chassis : FW47</item>
+    </string-array>
+
+    <string-array name="data_champion">
+        <item>World Championship : 16</item>
+        <item>World Championship : 9</item>
+        <item>World Championship : 8</item>
+        <item>World Championship : 6</item>
+        <item>World Championship : 9</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>
+            Bagi banyak orang, Ferrari dan balap Formula 1 telah menjadi tak terpisahkan.
+            Satu-satunya tim yang telah berkompetisi di setiap musim sejak kejuaraan dunia dimulai,
+            Ferrari telah berkembang dari mimpi sederhana pendirinya, Enzo Ferrari, menjadi salah satu merek paling ikonik dan diakui di dunia.
+            Kesuksesan datang dengan cepat melalui sosok-sosok seperti Alberto Ascari dan John Surtees, dan berlanjut – di tengah masa-masa sulit
+            – dengan Niki Lauda pada tahun 1970-an dan kemudian Michael Schumacher pada tahun 2000-an,
+            ketika Ferrari meraih lima gelar ganda berturut-turut yang belum pernah terjadi sebelumnya,
+            mengukuhkan status mereka sebagai tim paling sukses dan terhiasi dalam sejarah F1
+        </item>
+        <item>
+            Sejak memasuki olahraga ini pada tahun 1966 di bawah bimbingan dan usaha tak kenal lelah dari pendiri bernama sama,
+            Bruce, kesuksesan McLaren tidak kurang dari menakjubkan.
+            Lima dekade yang gemerlap telah menghasilkan tak terhitung jumlahnya kemenangan, posisi pole, dan podium,
+            belum lagi sembilan kejuaraan konstruktor. Lebih dari itu,
+            beberapa pembalap terbaik dalam olahraga ini membuat nama mereka bersama tim ini,
+            termasuk Emerson Fittipaldi, Ayrton Senna, Mika Hakkinen, dan Lewis Hamilton
+        </item>
+        <item>
+            Kebangkitan F1 modern Mercedes dimulai dengan pembentukan tim resmi untuk tahun 2010 -
+            platform untuk kenaikan meteorit ke urutan Grand Prix.
+            Tim ini menghasilkan kegembiraan besar sejak awal dengan kembalinya sensasional Michael Schumacher,
+            tetapi berita utama segera menyusul di lintasan: tiga podium di musim debut mereka, semuanya melalui Nico Rosberg -
+            yang kemudian meraih pole/victory ganda yang luar biasa di China pada tahun 2012.
+            Musim berikutnya dia dipasangkan dengan Lewis Hamilton,
+            duo ini melanjutkan untuk menggelar beberapa pertarungan epik untuk gelar juara saat Silver Arrows
+            menyapu bersih semua di depan mereka dan menjadi salah satu kekuatan paling dominan di era F1 modern –
+            sampai Red Bull datang dan mencuri mahkota itu. Namun demikian,
+            dengan pemenang balapan yang terbukti George Russell kini dipasangkan dengan bintang yang sedang naik daun Kimi Antonelli,
+            Mercedes tetap menjadi salah satu tim yang harus dikalahkan
+        </item>
+        <item>
+            Red Bull bukanlah hal asing bagi F1 - sebagai sponsor - sebelum secara resmi bergabung sebagai tim pabrikan pada tahun 2004.
+            Namun demikian, skala kesuksesan mereka selama dekade berikutnya sangat mengejutkan.
+            Setelah podium pertama pada tahun 2006, tim tersebut menemukan ritme mereka pada tahun 2009,
+            meraih enam kemenangan dan posisi kedua dalam klasemen konstruktor. Selama empat musim berikutnya,
+            mereka menjadi kekuatan yang tak terbendung, meraih gelar ganda berturut-turut antara 2010 dan 2013,
+            dengan Sebastian Vettel muncul sebagai juara kuadruple termuda dalam olahraga ini.
+            Sekarang mereka merebut kembali kejayaan itu dengan bakat yang sama menariknya – seseorang bernama Max Verstappen
+        </item>
+        <item>
+            Didorong oleh semangat dan kecermelangan almarhum Sir Frank Williams,
+            Williams tumbuh dari awal yang sederhana menjadi raksasa Formula 1,
+            tak tertandingi oleh siapa pun kecuali Ferrari dan McLaren dalam hal kesuksesan yang berkelanjutan.
+            Selama empat dekade terakhir, tim ini telah mengumpulkan kemenangan Grand Prix dan kejayaan kejuaraan,
+            dan dalam prosesnya telah membina beberapa bakat terbesar dalam olahraga ini, baik di dalam maupun di luar kokpit.
+            Dan, setelah keputusan keluarga Williams untuk mundur setelah penjualan tim kepada Dorilton Capital pada tahun 2020,
+            era baru telah dimulai
+        </item>
+    </string-array>
+
+    <string-array name="data_link">
+        <item>https://www.formula1.com/en/teams/ferrari</item>
+        <item>https://www.formula1.com/en/teams/mclaren</item>
+        <item>https://www.formula1.com/en/teams/mercedes</item>
+        <item>https://www.formula1.com/en/teams/red-bull-racing</item>
+        <item>https://www.formula1.com/en/teams/williams</item>
+    </string-array>
+
+    <string-array name="data_image">
+        <item>https://cdn1-production-images-kly.akamaized.net/jMacjCAV_TAZCRybVLNje9eDq0Q=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1299410/original/085836400_1469592744-logo.jpg</item>
+        <item>https://static.wikia.nocookie.net/f1-formula-1/images/e/ed/McLaren.jpg/revision/latest?cb=20230118201145</item>
+        <item>https://static.wikia.nocookie.net/f1-formula-1/images/1/1e/Mercedes.jpg/revision/latest?cb=20230119001246</item>
+        <item>https://www.logotypes101.com/logos/192/9A4970424CE2C2B5BF5DC41EDF29DE3E/tn_red_bull.png</item>
+        <item>https://preview.redd.it/a-fused-williams-and-atlassian-logo-to-commemorate-the-new-v0-bph9mq8j3vie1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=1b5e7228843f0376166dc5028c78b390dd6d83fd</item>
+    </string-array>
+
+    <string-array name="data_image_detail">
+        <item>https://cdn.ferrari.com/cms/network/media/img/resize/67587a0c4e5f24001074a2ca-scuderia-ferrari-cadillac-2026-news</item>
+        <item>https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2025/01/23171426/mclaren-logo-2024.jpg</item>
+        <item>https://cdn-9.motorsport.com/images/mgl/0RrzmDo0/s8/mercedes-f1-logo-1.jpg</item>
+        <item>https://cdn-5.motorsport.com/images/mgl/Y99JQRbY/s8/red-bull-racing-logo-1.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f9/Williamsracing-20200530-0001.jpg</item>
+    </string-array>
+</resources>
